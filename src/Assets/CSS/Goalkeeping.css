@@ -1,0 +1,26 @@
+.tree, .icon-details {
+    display: inline-block !important;
+    width: 50% !important;
+}
+
+.tree {
+    min-width: 192px;
+}
+
+.icon-details {
+    vertical-align: top;
+    margin-top: 20px;
+    float: right;
+}
+
+@media(max-width:401px) {
+    .icon-details {
+        width: auto !important;
+        padding: 5px 10px;
+        margin: auto;
+    }
+
+    .tree {
+        width: 100% !important;
+    }
+}

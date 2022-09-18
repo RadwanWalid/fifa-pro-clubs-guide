@@ -1,0 +1,42 @@
+.navigation {
+    background-color: #C7F650;
+    padding-right: 10px;
+    display: inline-block !important;
+    width: 100%;
+}
+  
+.navContainer {
+    padding: 0px;
+}
+  
+.FIFAlogo {
+    height: 30px;
+    padding-left: 10px;
+    width: 128px;
+}
+
+.FIFAlogo:hover {
+    transform: scale(1);
+}
+  
+.hamburger {
+    background-color: #1C1F26;
+    border-color: #1C1F26;
+    height: 46px !important;
+    margin: 0px; 
+    width: auto;
+}
+
+#navbarlink {
+    padding-left: 10px;
+    padding-right: 18px;
+    text-align: left;
+    font-size: 20px;
+    color: black;
+}
+
+@media (max-width:800px) {  
+    #navbarlink {
+        font-size: 8vw;
+    }
+}

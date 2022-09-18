@@ -1,0 +1,35 @@
+body {
+  font-family: 'Bebas Neue';
+  background-color: #1C1F26;
+  text-align: center;
+  color: white;
+}
+
+hr {
+  /* color: #375AF6; */
+  opacity: 100%;
+  margin: auto;
+  width: 75%;
+}
+
+h1 {
+  padding-top: 10px;
+}
+
+a {
+  letter-spacing: 0.6px;
+  font-style: italic;
+}
+
+#root {
+  overflow-y: scroll;
+  height: calc(100vh - 62px);
+}
+
+@font-face {
+  src: url('BebasNeue-Regular.ttf') format('truetype');
+  font-family: 'Bebas Neue';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

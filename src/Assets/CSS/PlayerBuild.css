@@ -1,0 +1,26 @@
+/* #main-content {
+    background-size: 100% calc(100% - 62px);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: calc(100% - 62px);
+    overflow-y: scroll;
+    width: 100%;
+    position: sticky;
+} */
+
+#step-1, #step-2 {
+    border: 0px !important;
+    border-radius: 0.25rem;
+    padding: 0.375rem 0.75rem;
+    margin-top: 15px;
+    background-color: grey;
+}
+
+#step-1 {
+    margin-right: 10px;
+}
+
+#step-2 {
+    margin-left: 10px;
+}

@@ -1,0 +1,86 @@
+#main-content {
+    background-size: 100% calc(100% - 62px);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /* overflow-y: scroll;
+    height: calc(100vh - 62px); */
+    width: 100%;
+    position: sticky;
+}
+
+hr {
+    border-width: 4px;
+    height: 4px;
+}
+  
+#title {
+    font-family: 'Bebas Neue';
+    padding-bottom: 100px;
+    text-align: center;
+    font-style: italic;
+    line-height: 0.5;
+}
+  
+.sub-title {
+    line-height: 90%;
+    font-size: 375%;
+}
+  
+#deep-dive {
+    padding-top: 50px;
+    margin: auto;
+}
+  
+#contact-me {
+    display: inline-block;
+    padding-bottom: 16px;
+    position: relative;
+}
+  
+.categories {
+    padding-left: 13%;
+    text-align: left;
+    font-size: 60px;
+}
+  
+.copyright {
+    background-color: #252525;
+    padding-bottom: 10px;
+    position: relative;
+    padding-top: 50px;
+    font-size: 20px;
+    color: grey;
+}
+  
+.ea {
+    margin-top: 15px !important;
+}
+  
+.button-icons {
+    position: relative;
+    right: 5px;
+}
+
+.btn-outline-dark {
+    border-color: #C7F650;
+    color: #C7F650;
+    margin: 0px 1.5px;
+}
+
+.logo {
+    width: 448px;
+    height: 373px;
+    position: initial;
+}
+
+.logo:hover {
+    transform: scale(1);
+}
+
+@media (max-width:800px) {
+    .logo {
+      width: 100%;
+      height: auto;
+    }
+}

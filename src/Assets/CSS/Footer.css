@@ -1,0 +1,34 @@
+#contact-me {
+    display: inline-block;
+    padding-bottom: 16px;
+    position: relative;
+}
+
+.copyright {
+    background-color: #252525;
+    padding-bottom: 10px;
+    position: relative;
+    padding-top: 50px;
+    font-size: 20px;
+    color: grey;
+}
+  
+.ea {
+    margin-top: 15px !important;
+}
+  
+.button-icons {
+    position: relative;
+    top: 0px;
+    right: 5px;
+    height: 15px;
+    width: 35px;
+}
+
+.btn-outline-dark {
+    border-color: #C7F650;
+    color: #C7F650;
+    margin: 0px 1.5px;
+    width: auto !important;
+    height: 38px !important;
+}

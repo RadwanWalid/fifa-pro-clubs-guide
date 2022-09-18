@@ -1,0 +1,87 @@
+#growth-value {
+    color: #2EFF2D;
+}
+
+.col {
+    vertical-align:top;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+  
+.avg {
+    height: 2px !important;
+    background-color: white;
+    width: 150px;
+}
+
+#star {
+    height: 15px;
+    width: 18px;
+}
+
+table {
+    margin: 2%;
+    display: inline-block;
+    vertical-align: text-top;
+}
+  
+th {
+    letter-spacing: 1.5px;
+}
+
+td {
+    text-align: left;
+}
+
+.progress {
+    border-radius: 25px;
+    height: 8px;
+    background-color: #8E949C;
+}
+
+#gauge-row {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+}
+
+#stats-name {
+    display: inline;
+    float: left;
+}
+
+#stats-value {
+    float: right;
+}
+
+#stats-info {
+    display: inline-block;
+    width: 150px;
+    margin-top: 10px;
+}
+
+#progressbar {
+    width: 150px;
+}
+  
+.progress-bar {
+    background-color: #375AF6;
+}
+
+.bg-success {
+    --bs-success-rgb: 46,255,45;
+}
+
+.semi-circle {
+    width: 50px;
+    height: 50px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: red;
+}
+
+@media(max-width:800px) {
+    .col {
+      margin: 0px;
+    }
+}

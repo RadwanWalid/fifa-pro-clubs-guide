@@ -1,0 +1,9 @@
+body, html {
+    overflow: hidden;
+    height: 100%;
+}
+
+#root {
+  overflow-y: scroll;
+  height: calc(100vh - 62px);
+}

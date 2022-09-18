@@ -1,0 +1,49 @@
+.buildnav-btn {
+    height: 25px;
+    width:100%;
+    border: 0px;
+    border-color: #CD2862 !important;
+    border-radius: 0px !important;
+    color:white;
+    margin: 0px;
+    background-color: #2F3545;
+    transition: background-color 0.25s linear;
+}
+
+.buildnav-btn:hover {
+    background-color: #1D1F2C !important;
+    transition: background-color 0.25s;
+}
+
+.tree-ptr {
+    margin: auto;
+    height: 30px;
+}
+ 
+#athletic-ptr, #physical-ptr, #defending-ptr, #dribbling-ptr, #passing-ptr, #shooting-ptr, #pace-ptr, #goalkeeping-ptr {
+   padding: 0px;
+   margin: 0px;
+}
+ 
+#physical-ptr:hover, #defending-ptr:hover, #dribbling-ptr:hover, #passing-ptr:hover, #shooting-ptr:hover, #pace-ptr:hover, #goalkeeping-ptr:hover {
+   padding: 0px;
+}
+
+#skill-pts {
+    text-align: right;
+    position: relative;
+    top: 0.5rem;
+    right: 2rem;
+    margin: 0px;
+}
+
+@media (max-width: 427px) {
+    .buildnav-btn {
+        height: 25px !important;
+        transition: height 0s linear !important;
+    }
+
+    .tree-ptr {
+        height: auto !important;
+    }
+}

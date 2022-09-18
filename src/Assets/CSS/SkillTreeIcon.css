@@ -1,0 +1,20 @@
+.skill-tree-icon-image {
+    width: 45px;
+    height: 50px;
+    position: relative;
+    right: 6.75px;
+    bottom: 4px;
+}
+  
+.skill-tree-icon-image:hover {
+    transform: scale(1.1);
+}
+
+.skill-tree-icon-btn {
+    margin: 10px;
+    border: 0px;
+    width: 44px;
+    height: 44px;
+    border-radius: 100px;
+    background-color: rgba(0, 0, 0, 0);
+}
