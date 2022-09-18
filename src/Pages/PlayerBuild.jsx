@@ -14,7 +14,7 @@ import WithBuildNav from "../Routes/WithBuildNav";
 import WithoutBuildNav from "../Routes/WithoutBuildNav";
 import "../Assets/CSS/PlayerBuild.css";
 import { UserContext } from "../userContext";
-
+ 
 function PlayerBuild() {
 
     const location = useLocation();
@@ -34,7 +34,6 @@ function PlayerBuild() {
     }
 
     useEffect(() => {
-
     }, [location]);
 
     return (

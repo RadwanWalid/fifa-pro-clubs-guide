@@ -6,7 +6,7 @@ import "../Assets/CSS/NavigationBar.css";
 function NavigationBar() {
 
   return (
-    <Navbar className="navigation" expand="lg" variant="dark" sticky="top">
+    <Navbar className="navigation" expand="lg" variant="dark">
       <Container className="navContainer" fluid>
         <Navbar.Brand href="/"><img className="FIFAlogo" src={require("../Assets/Images/fifa-22-logo.png")} alt="" /></Navbar.Brand>
         <Navbar.Toggle className="hamburger" aria-controls="basic-navbar-nav" />
